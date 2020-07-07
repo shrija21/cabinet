@@ -1,1 +1,19 @@
-%h1 Voila! This is placeholder
+#banner
+	.banner_content
+		%h1 File Cabinet
+		%p Your life's work. Organized, always.
+		%button= link_to "Enter", new_user_registration_path
+
+#callouts
+	.callout_inner
+		.wrapper
+			.callout
+				%h2 Organize
+				%p Use this package if you want to add dummy Hipster Ipsum text to your page by RIGHT CLICKING where you 			wish to add text, select between paragraph, paragraphs, or sentence lengths to generate.
+				%p Hipsum is a for-fun plugin for GitHub's Atom, created by Ben MacLean, based from Lipsum by Nickolas Kenyeres.
+
+#bottom_cta
+	.wrapper
+		%h2 Go Ahead!
+		%br 
+		%button= link_to "Join Now", new_user_registration_path
